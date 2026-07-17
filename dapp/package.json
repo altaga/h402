@@ -65,6 +65,15 @@
     "yahoo-finance2": "^3.14.0",
     "zod": "^3.25.76"
   },
+  "overrides": {
+    "@hashgraph/sdk": {
+      "protobufjs": "^8.6.0",
+      "@grpc/proto-loader": {
+        "protobufjs": "^7.6.3"
+      }
+    },
+    "protobufjs": "^7.6.3"
+  },
   "devDependencies": {
     "@types/react": "~19.1.0",
     "axios": "^1.18.1",
