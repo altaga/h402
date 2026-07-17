@@ -72,7 +72,10 @@
         "protobufjs": "^7.6.3"
       }
     },
-    "protobufjs": "^7.6.3"
+    "protobufjs": "^7.6.3",
+    "@grpc/grpc-js": "^1.12.7",
+    "elliptic": "^6.6.1",
+    "linkify-it": "^5.0.1"
   },
   "devDependencies": {
     "@types/react": "~19.1.0",
