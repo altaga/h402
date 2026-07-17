@@ -24,7 +24,7 @@
     "web": {
       "bundler": "metro",
       "output": "server",
-      "favicon": "./src/assets/hbar.png"
+      "favicon": "./src/assets/logo.png"
     },
     "plugins": [
       "expo-router",
