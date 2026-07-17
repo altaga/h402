@@ -4,7 +4,7 @@
     "slug": "h402",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./src/assets/hbar.png",
+    "icon": "./src/assets/logo.png",
     "scheme": "h402",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
