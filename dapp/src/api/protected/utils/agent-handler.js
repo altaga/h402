@@ -9,7 +9,7 @@ import { ALL_TOOLS } from "./tools";
  */
 
 export const handleAgentRequest = async (c, tier, modelName, systemPrompt) => {
-    const traceId = c.req.header("X-ħ402-Trace-Id") || `trace-${Date.now()}`;
+    const traceId = c.req.header("X-h402-Trace-Id") || `trace-${Date.now()}`;
     const toolsEnabled = c.req.header("X-Tools-Enabled") === "true";
     const body = await c.req.json();
     const message = body.message || body.prompt;

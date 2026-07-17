@@ -266,10 +266,7 @@ export default function SmartProvider({ children }) {
               <View
                 style={{ flexDirection: "row", alignItems: "center", gap: 12 }}
               >
-                <Image
-                  source={require("../assets/logo.png")}
-                  style={{ width: 32, height: 32, tintColor: "#00FF41" }}
-                />
+
                 <View>
                   <Text style={styles.logoText}>ħ402</Text>
                   <Text style={styles.logoSubtext}>HEDERA - X402</Text>
@@ -468,7 +465,7 @@ const styles = {
     marginBottom: 40,
   },
   logoText: {
-    fontSize: 24,
+    fontSize: 36,
     color: "#00FF41",
     fontFamily: monoFont,
     letterSpacing: 2,

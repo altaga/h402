@@ -87,7 +87,6 @@ const styles = StyleSheet.create({
     fontSize: 20,
     fontFamily: monoFont,
     letterSpacing: 2,
-    textTransform: "uppercase",
     marginBottom: 16,
   },
   headline: {

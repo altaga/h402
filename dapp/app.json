@@ -4,7 +4,7 @@
     "slug": "h402",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./src/assets/logo.png",
+    "icon": "./src/assets/hbar.png",
     "scheme": "h402",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -24,14 +24,14 @@
     "web": {
       "bundler": "metro",
       "output": "server",
-      "favicon": "./src/assets/logo.png"
+      "favicon": "./src/assets/hbar.png"
     },
     "plugins": [
       "expo-router",
       [
         "expo-splash-screen",
         {
-          "image": "./src/assets/logo.png",
+          "image": "./src/assets/hbar.png",
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#000000",

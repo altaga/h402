@@ -505,7 +505,7 @@ export default function AIAppChat() {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
-            "X-ħ402-Trace-Id": traceId,
+            "X-h402-Trace-Id": traceId,
             "X-Tools-Enabled": toolsEnabled ? "true" : "false",
           },
           body: JSON.stringify({

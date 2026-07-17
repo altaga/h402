@@ -14,7 +14,7 @@ import {
 const MODEL_NAME = "deepseek-chat-v3-0324";
 
 export const handleAgentRequest = async (c, tier, systemPrompt) => {
-    const traceId = c.req.header("X-ħ402-Trace-Id") || `trace-${Date.now()}`;
+    const traceId = c.req.header("X-h402-Trace-Id") || `trace-${Date.now()}`;
     const body = await c.req.json();
     const message = body.message || body.prompt;
     const history = body.history || [];
