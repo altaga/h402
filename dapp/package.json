@@ -28,7 +28,7 @@
     "@react-navigation/native": "^7.1.8",
     "@shopify/flash-list": "^2.3.1",
     "@x402/core": "^2.8.0",
-    "@x402/hedera": "^2.17.0",
+    "@x402/hedera": "^2.25.0",
     "buffer": "^6.0.3",
     "crypto-browserify": "^3.12.1",
     "dotenv": "^17.4.2",
